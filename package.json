@@ -1,6 +1,6 @@
 {
-  "name": "snippets-hi",
-  "displayName": "snippets-hi",
+  "name": "snippets-create",
+  "displayName": "snippets-create",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "snippets-hi.helloWorld",
+        "command": "snippets-create.helloWorld",
         "title": "Hello World"
       }
     ]

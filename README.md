@@ -1,4 +1,4 @@
-# snippets-hi README
+# snippets-create README
 
 用来生成一个Hello World的提示。
 
