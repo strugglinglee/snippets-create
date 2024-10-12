@@ -21,6 +21,8 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
+    "package": "vsce package",
+    "publish": "vsce publish",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
@@ -40,5 +42,9 @@
   },
   "dependencies": {
     "electron": "^32.2.0"
-  }
+  },
+  "repository": "https://github.com/strugglinglee/snippets-create.git",
+  "author": "strugglinglee",
+  "license": "MIT",
+  "publisher": "strugglinglee"
 }
